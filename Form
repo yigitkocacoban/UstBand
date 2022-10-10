@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Lütfen Formu Eksiksiz Doldurun</h1>
+    <h2>Hesap Bilgileriniz</h2>
+
+    <table>
+      <tr>
+        <td>
+          <label for="username">Kullanıcı Adı: </label>
+        </td>
+        <td style="width: 50px"></td>
+        <td>
+          <input
+            type="text"
+            id="username"
+            placeholder="Kullanıcı adı giriniz."
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="email">E-Posta: </label>
+        </td>
+        <td style="width: 50px"></td>
+        <td>
+          <input
+            type="email"
+            id="email"
+            placeholder="E-Postaa adresi giriniz."
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="password">Şifre: </label>
+        </td>
+        <td style="width: 50px"></td>
+        <td>
+          <input
+            type="password"
+            id="password"
+            placeholder="Şifrenizi giriniz."
+          />
+        </td>
+      </tr>
+    </table>
+    <h2>Kişisel Bilgileriniz</h2>
+    <table>
+      <tr>
+        <td>
+          <label for="ad">Adınız: </label>
+        </td>
+        <td style="width: 50px"></td>
+        <td>
+          <input type="text" id="ad" placeholder="Adınızı giriniz." />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="soyad">Soyadınız: </label>
+        </td>
+        <td style="width: 50px"></td>
+        <td>
+          <input type="text" id="ad--soyad" placeholder="Soyadınızı giriniz." />
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
