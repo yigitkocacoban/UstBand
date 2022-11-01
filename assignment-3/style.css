@@ -1,0 +1,95 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background-color: #037245;
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.apply_box {
+  max-width: 600px;
+  padding: 20px;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 50px;
+  box-shadow: 4px 3px 5px rgba(1, 1, 1, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form_container {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.form_control {
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+}
+label {
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+input,
+select,
+textarea {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+input:focus {
+  outline-color: rgb(38, 0, 255);
+}
+
+.button_container {0
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+button {
+  background-color: #037245;
+  border: transparent;
+  padding: 5px 10px;
+  color: white;
+  border-radius: 8px;
+  transform: 0.3s ease-in;
+}
+
+button:hover {
+  background-color: white;
+  color: #037245;
+  transition: 0.3s ease-out;
+  cursor: pointer;
+}
+
+.textarea_control {
+  grid-column: 1 / span 2;
+  font-weight: bolder;
+}
+
+.textarea_control textarea {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .textarea_control {
+    grid-column: 1 / span 1;
+  }
+}
+
+.line{
+    height: 2px;
+    background-color: #037245;
+    border-radius: 10px;
+    margin: 10px;
+}
