@@ -2,7 +2,7 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 body {
   background-color: #037245;
@@ -51,7 +51,7 @@ input:focus {
   outline-color: rgb(38, 0, 255);
 }
 
-.button_container {0
+.button_container {
   justify-content: flex-end;
   margin-top: 5px;
 }
@@ -87,9 +87,9 @@ button:hover {
   }
 }
 
-.line{
-    height: 2px;
-    background-color: #037245;
-    border-radius: 10px;
-    margin: 10px;
+.line {
+  height: 2px;
+  background-color: #037245;
+  border-radius: 10px;
+  margin: 10px;
 }
